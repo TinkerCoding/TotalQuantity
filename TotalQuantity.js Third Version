@@ -1,0 +1,30 @@
+
+import React from "react";
+import count from "./Quantity";
+
+
+const TotalQuantity = (value) => {
+
+
+
+const count = [ ]
+
+const sumArrayOfNumbers = (countArray) => {
+   let total = 0;
+
+   for (
+     let i = 0;
+     i < countArray.length;
+     i += 1
+   ) {
+     total += countArray[i];
+   }
+
+   return total
+
+}
+};
+
+TotalQuantity(sumArrayOfNumbers(count));
+
+export default TotalQuantity;
